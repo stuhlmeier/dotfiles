@@ -72,7 +72,7 @@ aur_packages=(
 
   gnome-shell-extension-blyr
 
-  jetbrains-toolbox
+  jetbrains-toolbox libgnome-keyring
   vscodium-bin
 
   teams
