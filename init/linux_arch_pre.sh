@@ -11,7 +11,7 @@ pacstrap_packages=(
   iw
   # netctl dialog
 
-  refind-efi
+  refind
   inetutils
   exfat-utils ntfs-3g
 )
