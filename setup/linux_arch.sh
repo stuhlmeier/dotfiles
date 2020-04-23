@@ -13,15 +13,15 @@ EOF
 # GNOME settings
 gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
 
-yay -S numix-circle-icon-theme-git numix-circle-arc-icons-git capitaine-cursors || exit
+yay -S numix-circle-icon-theme-git numix-circle-arc-icons-git xcursor-breeze || exit
 yay -S ttf-windows || exit
 wget https://github.com/EliverLara/Sweet/releases/latest/download/Sweet-Dark.zip
 unzip -q Sweet-Dark.zip -d ~/.themes
 
 gsettings set org.gnome.desktop.interface gtk-theme Sweet-Dark
 gsettings set org.gnome.desktop.wm.preferences theme Sweet-Dark
-gsettings set org.gnome.desktop.interface cursor-theme capitaine-cursors
-gsettings set org.gnome.desktop.interface cursor-size 32
+gsettings set org.gnome.desktop.interface cursor-theme Breeze
+gsettings set org.gnome.desktop.interface cursor-size 24
 gsettings set org.gnome.desktop.interface icon-theme Numix-Circle-Arc
 gsettings set org.gnome.desktop.wm.preferences titlebar-font "Segoe UI 11"
 gsettings set org.gnome.desktop.interface font-name "Segoe UI 11"
