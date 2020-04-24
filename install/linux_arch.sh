@@ -77,6 +77,8 @@ aur_packages=(
 
   teams
   discord-canary
+
+  mongodb-shell-bin mongodb-tools-bin
 )
 
 # Enable multilib
