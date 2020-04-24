@@ -91,6 +91,7 @@ install "${pacman_packages[@]}" || exit
 install_aur "${aur_packages[@]}" || exit
 
 sudo systemctl enable gdm
+sudo systemctl enable docker
 
 if [ "$installed_yay" = true ]; then
   rm -rf yay
