@@ -54,14 +54,19 @@ pacman_packages=(
   nmap
   htop neofetch
 
+  # Servers
+  nginx
+
   # Build
+  git mercurial
   clang llvm lldb valgrind
   cmake meson
   gradle maven
   # jdk-openjdk
   texlive-most
   npm
-  git mercurial
+  kotlin
+  stylus
 )
 
 aur_packages=(
