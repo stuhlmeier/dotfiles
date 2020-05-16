@@ -33,6 +33,8 @@ pacman_packages=(
   chrome-gnome-shell
   plank tilix
 
+  i3-wm dmenu
+
   firefox-developer-edition
   blender
   gimp darktable
